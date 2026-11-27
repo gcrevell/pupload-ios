@@ -4,3 +4,23 @@
 # Claude
 .claude/worktrees/
 .claude/settings.local.json
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Secrets and signing
+Secrets.xcconfig
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
